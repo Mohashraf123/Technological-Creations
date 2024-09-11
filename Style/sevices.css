@@ -227,13 +227,18 @@ nav .bars a i {
   text-align: left;
   color: #ffffff;
 }
+.media div{
+  width:90% ;
+  margin: auto;
+  justify-content: left;
+}
 .media iframe {
-  width: 80%;
+  display: block;
+  width: 90%;
   height: 700px;
   border: 7px 0px 0px 0px;
   opacity: 0px;
   margin-top: 35px;
-  margin-left: 10%;
   border: solid 7px #1f63bf;
 }
 /* end of media */
@@ -726,12 +731,12 @@ footer p{
     color: #ffffff;
   }
   .media iframe {
-    width: 80%;
+    width: 90%;
     height: 700px;
     border: 7px 0px 0px 0px;
     opacity: 0px;
     margin-top: 35px;
-    margin-left: 10%;
+    margin-left:0%;
     border: solid 7px #1f63bf;
   }
   /* end of media */

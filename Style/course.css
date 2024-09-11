@@ -497,6 +497,7 @@ body .med-right {
     opacity: 0px;
     background-color: #1f63bf;
     padding-top:5px ;
+    padding-bottom:20px ;
 }
 .others h2{
     display: flex;
@@ -515,21 +516,20 @@ body .med-right {
     margin: auto;
     margin-top:40px ;
     margin-left:5% ;
+    justify-content: center;
 }
 .others .tracks ul{
     list-style: none;
     display: flex;
-    gap:50px ;
-
+    gap:45px ;
 }
-
 .others .tracks ul li a{
     display: inline-block;
     text-decoration: none;
     color:#1f63bf ;
     border: solid;
     width: 302px;
-    height: 144px;
+    height: 130px;
     background-color: #ffffff;
     box-shadow: -2px -2px 8px 0px #1F63BF;
     box-shadow: 2px 2px 8px 0px #1F63BF;
@@ -798,82 +798,72 @@ footer p{
         position: relative;
         width:100% ;
     }
-    nav .links{
+    nav .links {
+        width: 100%;
         display: flex;
         align-items: center;
-        gap:60px ;
-    }
-    header div nav{
-        display: none;
-        width:100% ;
+        gap: 40px;
+      }
+      header div nav {
+        width: 100%;
         height: 158px;
         display: flex;
         align-items: center;
-        justify-content:space-around;
-    }
-    header nav .logo{
-        padding-top:30px ;
-        margin-left:-10px ;
-    }
-    header nav .logo img{
-        width:160px ;
-    }
-    header nav .links ul{
+      }
+      header nav .logo {
+        padding-top: 30px;
+        margin-left: -1px;
+      }
+      header nav .logo img {
+        width: 160px;
+      }
+      header nav .links ul {
         list-style: none;
         display: flex;
-        gap:30px ;
-    }
-    header nav .links ul li{
-        width:125px ;
-        height:145px ;
+        gap: 30px;
+      }
+      header nav .links ul li {
+        width: 110px;
+        height: 145px;
         text-align: center;
-        padding-top:10px;
-        border-bottom-left-radius:15px ;
-        border-bottom-right-radius:15px ;
-        
-    }
-    header nav .links ul .active {
-        color: #FFFFFF;
-        background-color:#1F63BF;
-    }
-    header nav .links ul li:hover{
-        color: #FFFFFF;
-        background-color:#1F63BF;
-    }
-    header nav ul li a{
-        display: block;
-        width:125px ;
-        height:145px ;
-        font-size: 20px;
-        text-decoration: none;
-        color:#606060;
-        line-height:30px ;
-        font-weight:400 ;
-        margin-top:65px ;
-    }
-    header nav ul .active a{
-        color: #FFFFFF;
-    }
-    header nav ul li:hover a{
-        color: #FFFFFF;
-    }
-    header nav .regester{
-        padding-top:30px ;
-        gap:10px ;
-    }
-    header nav .links .regester a{
+        padding-top: 10px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+      }
+      header nav .links ul li a {
+        width: 110px;
+      }
+      header nav .links ul .active {
+        color: #ffffff;
+        background-color: #1f63bf;
+      }
+      header nav .links ul li:hover {
+        color: #ffffff;
+        background-color: #1f63bf;
+      }
+      header nav ul .active a {
+        color: #ffffff;
+      }
+      header nav ul li:hover a {
+        color: #ffffff;
+      }
+      header nav .regester {
+        padding-top: 30px;
+        gap: 10px;
+      }
+      header nav .links .regester a {
         display: flex;
         display: inline-block;
         text-decoration: none;
-        color:#606060 ;
-        width:150px ;
-        height:40px ;
+        color: #606060;
+        width: 150px;
+        height: 40px;
         text-align: center;
-        line-height:40px ;
-        font-size:24px ;
-        border-radius:16px ;
+        line-height: 40px;
+        font-size: 24px;
+        border-radius: 16px;
         font-weight: 400;
-    }
+      }
     header nav .links .regester a:nth-child(1){
         border: solid 1px #606060;
     
@@ -908,7 +898,7 @@ footer p{
         width: 90%;
         height:auto;
         margin: auto;
-        margin-top: 20px; 
+        margin-top: 35px; 
     }
     .media .med-cont{
       display: grid;
@@ -928,7 +918,7 @@ footer p{
     color: #1f63bf;
       width: 680px;
       font-size:28px;
-      line-height: 55px;
+      line-height: 30px;
     }
     
     .med-left iframe {
@@ -936,7 +926,7 @@ footer p{
       height:350px;
       border: solid 5px #1f63bf;
       border-radius: 20px;
-      margin-top: 20px;
+      margin-top: 10px;
     }
     body .med-right {
         width:100% ;
@@ -1189,18 +1179,18 @@ footer p{
         margin-top:60px ;
         width:100%;
         height: 671px;
-        gap: 0px;
         opacity: 0px;
         background-color: #1f63bf;
         padding-top:5px ;
     }
     .others h2{
         display: flex;
-        margin-left: 80px;
+        margin-left: 65px;
         margin-top:40px ;
         font-family: Lexend;
         font-size: 45px;
         font-weight: 600;
+
         line-height: 60px;
         letter-spacing: 0.03em;
         text-align: left;
@@ -1214,8 +1204,9 @@ footer p{
     }
     .others .tracks ul{
         list-style: none;
-        display: flex;
-        gap:50px ;
+        display: grid;
+        grid-template-columns:repeat(4,25%) ;
+        gap:30px ;
     }
     
     .others .tracks ul li a{
@@ -1224,7 +1215,7 @@ footer p{
         color:#1f63bf ;
         border: solid;
         width: 302px;
-        height: 144px;
+        height: 130px;
         background-color: #ffffff;
         box-shadow: -2px -2px 8px 0px #1F63BF;
         box-shadow: 2px 2px 8px 0px #1F63BF;

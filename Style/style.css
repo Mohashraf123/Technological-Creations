@@ -306,7 +306,6 @@ nav .bars a i{
     height:auto ;
     margin: auto;
     margin-top:35px ;
-    padding-left:3%;
 }
 .counts{
     margin: auto;
@@ -6850,16 +6849,18 @@ footer p{
     }   
     /* end header */
     body .counters{
-        width:90% ;
+        width:100% ;
         height:auto ;
         margin: auto;
         margin-top:30px ;
     }
     body .counters .counts{
-        width:100% ;
+        width:90% ;
         display:grid;
         grid-template-columns:repeat(1,100%) ;
         gap:20px ;
+        margin-left:5% ;
+        justify-content: center;
     }
     body .counters .counts .count{
         margin: auto;
@@ -6970,7 +6971,7 @@ footer p{
         position: relative;
         width:90%;
         height:70vh;
-        margin-left:4%;
+        margin-left:3.7%;
         z-index: 1;
     }
     .slides :hover .buttons{
@@ -7221,9 +7222,11 @@ footer p{
         grid-template-columns: repeat(1,100%);
         gap:30px ;
         margin-top:30px ;
+        justify-content:center;
+        margin-left:3.5% ;
     }
     .intia-all .intia-track{
-        width:100% ;
+        width:95% ;
         height:100px ;
         text-align: center;
         box-shadow: -2px -2px 8px 0px #1F63BF80;
@@ -7232,12 +7235,13 @@ footer p{
         border-radius:20px ;
     }
     .intia-all .intia-track a{
+        padding:5px ;
         display: block;
         text-decoration: none;
         font-family: Lexend;
-        font-size:18px;
+        font-size:16px;
         font-weight: 500;
-        line-height: 30px;
+        line-height:25px;
         margin-top:32px ;
         text-align: center;
         color: #606060;
@@ -7569,8 +7573,9 @@ footer p{
 
     }
     body .activities .images div{
+        width:90% ;
         margin: auto;
-        margin-left:0;
+        margin-left:5%;
         height:250px ;
         border-radius:20px ;
         overflow: hidden;

@@ -266,19 +266,15 @@ nav .bars a i {
 .allservices {
   width: 90%;
   margin: auto;
-
   margin-top: 60px;
   display: grid;
-  grid-template-columns: repeat(3, 408px);
+  grid-template-columns: repeat(3, 33%);
   gap: 38px;
   justify-content: center;
 }
 .allservices .service {
-  width: 408px;
+  width:100%;
   height: 350px;
-  top: 1556px;
-  left: 80px;
-  gap: 0px;
   border-radius: 19px;
   opacity: 0px;
   box-shadow: -2px -2px 8px 4px #00000014;
@@ -319,7 +315,7 @@ nav .bars a i {
 .descripe {
   margin-top: 60px;
   margin-left: 80px;
-  width: 750px;
+  width:90%;
   height: auto;
 }
 .descripe ul li {
@@ -331,6 +327,7 @@ nav .bars a i {
   text-align: left;
   color: #606060;
   margin-top: 30px;
+  
 }
 
 /* end of level */
@@ -358,8 +355,9 @@ nav .bars a i {
   margin: auto;
   margin-top: 60px;
   display: grid;
-  grid-template-columns: repeat(4, 302px);
+  grid-template-columns: repeat(4,23%);
   gap: 24px;
+  justify-content: center;
 }
 .diplomas .alldiplomas1 .diploma,
 .diplomas .alldiplomas2 .diploma {
@@ -405,99 +403,102 @@ nav .bars a i {
 }
 /* end of diplomas */
 
-footer {
-  width: 100%;
-  height: 450px;
-  border-top: solid 1px #00000014;
-  padding-top: 30px;
-  margin-top: 60px;
+footer{
+    width:100% ;
+    height:450px ;
+    border-top:solid 1px #00000014  ;
+    padding-top:30px ;
 }
-footer .foot-divs {
-  width: 90%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 27% 45% 25%;
-  justify-content: space-between;
-  gap: 0px;
+footer .foot-divs{
+    width:90% ;
+    margin: auto;
+    display: grid;
+    grid-template-columns:25% 45% 25% ;
+    justify-content: space-between;
+    gap:10px ;
+    
 }
-.foot-divs .foot-div {
-  text-align: right;
-  padding-right: 50px;
+.foot-divs .foot-div{
+    text-align:right;
+    padding-right:0px ;
 }
-.foot-divs .foot-div h2 {
-  color: #343434;
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 45px;
+.foot-divs .foot-div h2{
+    color: #343434;
+    font-size:36px;
+    font-weight: 500;
+    line-height: 45px;
 }
-.foot-divs .foot-div div h4 {
-  font-size: 22px;
-  line-height: 40px;
-  font-weight: 400;
-  margin-top: 20px;
+.foot-divs .foot-div div h4{
+    font-size: 22px;
+    line-height: 40px;
+    font-weight:400 ;
+    margin-top:20px ;
 }
-.foot-divs .foot-div div a {
-  text-decoration: none;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 300;
-  color: #606060;
+.foot-divs .foot-div div a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight:300 ;
+    color:#606060 ;
 }
-.foot-divs .foot-div2 {
-  margin-top: -30px;
-  text-align: center;
+.foot-divs .foot-div2{
+    margin-top: -30px;
+    text-align: center;
 }
-.foot-divs .foot-div2 img {
-  width: 213px;
-  height: 202px;
+.foot-divs .foot-div2 img{
+    width: 213px;
+    height: 202px;
 }
-.foot-divs .foot-div2 h3 {
-  font-size: 32px;
-  line-height: 40px;
-  font-weight: 400;
+.foot-divs .foot-div2 h3{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
 }
-.foot-divs .foot-div2 ul {
-  list-style: none;
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
+.foot-divs .foot-div2 ul{
+    list-style: none;
+    margin-top:30px ;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
-.foot-divs .foot-div2 ul li a {
-  color: #1f63bf;
-  font-size: 30px;
+.foot-divs .foot-div2 ul li a{
+    color: #1F63BF;
+    font-size:30px ;  
 }
-.foot-divs .foot-div2 ul li a:hover {
-  color: #343434;
+.foot-divs .foot-div2 ul li a:hover{
+    color:#343434;
+    transition:.5s;
 }
-.foot-divs .foot-div3 {
-  text-align: left;
-  padding-left: 100px;
+.foot-divs .foot-div3{
+    text-align: left;
+    padding-left:0px ;
 }
-.foot-divs .foot-div3 h2 {
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 45px;
+.foot-divs .foot-div3 h2{
+    font-size:36px ;
+    font-weight:500 ;
+    line-height: 45px;
 }
-.foot-divs .foot-div3 ul {
-  list-style: none;
+.foot-divs .foot-div3 ul{
+    list-style: none;
 }
-.foot-divs .foot-div3 ul li {
-  margin-top: 20px;
+.foot-divs .foot-div3 ul li{
+    margin-top: 20px;
+
 }
-.foot-divs .foot-div3 ul li a {
-  text-decoration: none;
-  color: #606060;
-  font-size: 23px;
-  font-weight: 400;
-  line-height: 40px;
+.foot-divs .foot-div3 ul li a{
+    text-decoration:none;
+    color:#606060 ;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 40px;
 }
-.foot-divs .foot-div3 ul li a:hover {
-  color: #1f63bf;
+.foot-divs .foot-div3 ul li a:hover{
+    color: #1F63BF;
+    transition:.5s;
 }
-footer p {
-  margin-top: 50px;
-  text-align: center;
+footer p{
+    margin-top:50px ;
+    text-align: center;
 }
 /* end of footer */
 @media only screen and (min-width: 1440px) and (max-width: 2560px) {
@@ -1082,39 +1083,59 @@ footer p {
     position: relative;
     width: 100%;
   }
-  nav .links {
+  nav .links{
+    width:100% ;
     display: flex;
     align-items: center;
-    gap: 60px;
-  }
-  header div nav {
-    display: none;
-    width: 100%;
+    gap:40px ;
+
+}
+header div nav{
+    width:100% ;
     height: 158px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-  }
-  header nav .logo {
-    padding-top: 30px;
-    margin-left: -10px;
-  }
-  header nav .logo img {
-    width: 160px;
-  }
-  header nav .links ul {
+}
+header nav .logo{
+    padding-top:30px ;
+    margin-left:-1px ;
+}
+header nav .logo img{
+    width:160px ;
+}
+header nav .links ul{
     list-style: none;
     display: flex;
-    gap: 30px;
-  }
-  header nav .links ul li {
-    width: 125px;
-    height: 145px;
+    gap:30px ;
+}
+header nav .links ul li{
+    width:110px ;
+    height:145px ;
     text-align: center;
-    padding-top: 10px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-  }
+    padding-top:10px;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius:15px ;
+    
+}
+header nav .links ul .active {
+    color: #FFFFFF;
+    background-color:#1F63BF;
+}
+header nav .links ul li:hover{
+    color: #FFFFFF;
+    background-color:#1F63BF;
+}
+header nav ul li a{
+    display: block;
+    width:110px ;
+    height:145px ;
+    font-size: 20px;
+    text-decoration: none;
+    color:#606060;
+    line-height:30px ;
+    font-weight:400 ;
+    margin-top:65px ;
+}
   header nav .links ul .active {
     color: #ffffff;
     background-color: #1f63bf;
@@ -1125,7 +1146,7 @@ footer p {
   }
   header nav ul li a {
     display: block;
-    width: 125px;
+    width: 110px;
     height: 145px;
     font-size: 20px;
     text-decoration: none;
@@ -1258,18 +1279,14 @@ footer p {
   .allservices {
     width: 90%;
     margin: auto;
-
     margin-top: 60px;
     display: grid;
-    grid-template-columns: repeat(3, 408px);
+    grid-template-columns: repeat(3, 33%);
     gap: 38px;
   }
   .allservices .service {
-    width: 408px;
+    width:100%;
     height: 350px;
-    top: 1556px;
-    left: 80px;
-    gap: 0px;
     border-radius: 19px;
     opacity: 0px;
     box-shadow: -2px -2px 8px 4px #00000014;
@@ -1348,8 +1365,9 @@ footer p {
     margin: auto;
     margin-top: 60px;
     display: grid;
-    grid-template-columns: repeat(4, 302px);
+    grid-template-columns: repeat(4,23%);
     gap: 24px;
+    justify-content: center;
   }
   .diplomas .alldiplomas1 .diploma,
   .diplomas .alldiplomas2 .diploma {
@@ -1395,100 +1413,100 @@ footer p {
   }
   /* end of diplomas */
 
-  footer {
-    width: 100%;
-    height: 450px;
-    border-top: solid 1px #00000014;
-    padding-top: 30px;
-    margin-top: 60px;
-  }
-  footer .foot-divs {
-    width: 90%;
+  footer{
+    width:100% ;
+    height:450px ;
+    border-top:solid 1px #00000014  ;
+    padding-top:35px ;
+    margin-top:35px ;
+}
+footer .foot-divs{
+    width:100% ;
     margin: auto;
     display: grid;
-    grid-template-columns: 27% 45% 25%;
-    justify-content: space-between;
-    gap: 0px;
-  }
-  .foot-divs .foot-div {
-    text-align: right;
-    padding-right: 50px;
-  }
-  .foot-divs .foot-div h2 {
+    grid-template-columns:25% 40% 25% ;
+    gap:0px ;
+}
+.foot-divs .foot-div{
+    text-align:right;
+    padding-right:0px ;
+}
+.foot-divs .foot-div h2{
     color: #343434;
-    font-size: 36px;
+    font-size:36px;
     font-weight: 500;
     line-height: 45px;
-  }
-  .foot-divs .foot-div div h4 {
+}
+.foot-divs .foot-div div h4{
     font-size: 22px;
     line-height: 40px;
-    font-weight: 400;
-    margin-top: 20px;
-  }
-  .foot-divs .foot-div div a {
+    font-weight:400 ;
+    margin-top:20px ;
+}
+.foot-divs .foot-div div a{
     text-decoration: none;
     font-size: 20px;
     line-height: 30px;
-    font-weight: 300;
-    color: #606060;
-  }
-  .foot-divs .foot-div2 {
+    font-weight:300 ;
+    color:#606060 ;
+}
+.foot-divs .foot-div2{
     margin-top: -30px;
     text-align: center;
-  }
-  .foot-divs .foot-div2 img {
+}
+.foot-divs .foot-div2 img{
     width: 213px;
     height: 202px;
-  }
-  .foot-divs .foot-div2 h3 {
+}
+.foot-divs .foot-div2 h3{
     font-size: 32px;
     line-height: 40px;
     font-weight: 400;
-  }
-  .foot-divs .foot-div2 ul {
+}
+.foot-divs .foot-div2 ul{
     list-style: none;
-    margin-top: 30px;
+    margin-top:30px ;
     display: flex;
     justify-content: center;
     gap: 30px;
-  }
-  .foot-divs .foot-div2 ul li a {
-    color: #1f63bf;
-    font-size: 30px;
-  }
-  .foot-divs .foot-div2 ul li a:hover {
-    color: #343434;
-  }
-  .foot-divs .foot-div3 {
+}
+.foot-divs .foot-div2 ul li a{
+    color: #1F63BF;
+    font-size:30px ;  
+}
+.foot-divs .foot-div2 ul li a:hover{
+    color:#343434;
+}
+.foot-divs .foot-div3{
     text-align: left;
-    padding-left: 100px;
-  }
-  .foot-divs .foot-div3 h2 {
-    font-size: 36px;
-    font-weight: 500;
+    padding-left:0px ;
+}
+.foot-divs .foot-div3 h2{
+    font-size:36px ;
+    font-weight:500 ;
     line-height: 45px;
-  }
-  .foot-divs .foot-div3 ul {
+}
+.foot-divs .foot-div3 ul{
     list-style: none;
-  }
-  .foot-divs .foot-div3 ul li {
+}
+.foot-divs .foot-div3 ul li{
     margin-top: 20px;
-  }
-  .foot-divs .foot-div3 ul li a {
-    text-decoration: none;
-    color: #606060;
+
+}
+.foot-divs .foot-div3 ul li a{
+    text-decoration:none;
+    color:#606060 ;
     font-size: 23px;
     font-weight: 400;
     line-height: 40px;
-  }
-  .foot-divs .foot-div3 ul li a:hover {
-    color: #1f63bf;
-  }
-  footer p {
-    margin-top: 50px;
+}
+.foot-divs .foot-div3 ul li a:hover{
+    color: #1F63BF;
+}
+footer p{
+    margin-top:50px ;
     text-align: center;
-  }
+}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
   .side-nav {

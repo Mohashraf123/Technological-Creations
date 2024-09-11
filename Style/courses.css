@@ -234,18 +234,17 @@ nav .bars a i{
     margin: auto;
     margin-top:40px ;
     display: grid;
-    grid-template-columns:repeat(2,564px) ;
-    gap:50px ;
+    grid-template-columns:repeat(2,50%) ;
+    gap:20px ;
     justify-content: center;
-
 }
 .alltracks .tracks .track{
-    width:564px ;
+    width:90% ;
     height:auto ;
     background-color:#E0E5ECB0;
     padding:15px ;
     display:flex;
-    margin-left:0px ;
+    margin-left:2.6% ;
     border-radius:20px ;
     padding-bottom:30px ;
 
@@ -835,7 +834,7 @@ footer p{
     }
 
 }
-@media only screen and (min-width: 1280px) and (max-width: 1440px){
+@media only screen and (min-width: 1366px) and (max-width: 1440px){
     .side-nav{
         height:100%;
         width: 0;
@@ -1242,6 +1241,443 @@ footer p{
     .foot-divs .foot-div3{
         text-align: left;
         padding-left:100px ;
+    }
+    .foot-divs .foot-div3 h2{
+        font-size:36px ;
+        font-weight:500 ;
+        line-height: 45px;
+    }
+    .foot-divs .foot-div3 ul{
+        list-style: none;
+    }
+    .foot-divs .foot-div3 ul li{
+        margin-top: 20px;
+    
+    }
+    .foot-divs .foot-div3 ul li a{
+        text-decoration:none;
+        color:#606060 ;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    .foot-divs .foot-div3 ul li a:hover{
+        color: #1F63BF;
+    }
+    footer p{
+        margin-top:50px ;
+        text-align: center;
+    }
+
+}
+@media only screen and (min-width: 1280px) and (max-width: 1366px){
+    .side-nav{
+        height:100%;
+        width: 0;
+        position:fixed;
+        top: 0;
+        left: 0;
+        background-color:#FFFFFF;
+        overflow-x: hidden;
+        transition: width 0.5s ease;
+        z-index: 1000;
+    }
+    .side-nav .nav-links .logo{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:100px ;
+        margin: auto;
+    }
+    .side-nav .nav-links .logo .bars a{
+        font-size:30px ;
+        color: #1F63BF;
+        margin-right:10px ;
+    }
+    .side-nav .nav-links .logo img{
+        width:110px ;
+        margin-left:-10px ;
+    }
+    .side-nav .nav-links ul {
+        list-style: none;
+    }
+    .side-nav .nav-links ul li{
+        text-align:left;
+        margin-top:0px ;
+        font-size:22px ;
+        padding:12px ;
+    }
+    .side-nav .nav-links ul li:hover{
+        background-color: #1F63BF;
+        color: #FFFFFF;
+    }
+    .side-nav .nav-links ul li:hover a{
+        color:#FFFFFF;
+    
+    }
+    .side-nav .nav-links ul li a{
+        text-decoration: none;
+        font-size:20px ;
+        color:#606060;
+        margin-left:30px ;
+        
+    }
+    .side-nav .nav-links .regester{
+        text-align:left;
+        margin-top:40px ;
+    }
+    .side-nav .nav-links .regester{
+        color: #1F63BF;
+        text-decoration: none;
+        align-items: center;
+        gap:10px;
+        margin-left:25px ;
+    }
+    .side-nav .nav-links .regester a{
+        display: flex;
+        display: inline-block;
+        text-decoration: none;
+        color:#606060 ;
+        width:144px ;
+        height:40px ;
+        border: none;
+        box-shadow: -2px -2px 8px 0px #00000014;
+        box-shadow: 2px 2px 8px 8px #00000014;
+        text-align: center;
+        line-height:40px ;
+        font-size:18px ;
+        border-radius:16px ;
+        font-weight: 400;
+        margin-left:10px ;
+    }
+    .side-nav .nav-links .regester a:nth-child(2){
+        background-color: #1F63BF;
+        color:#FFFFFF;
+    }
+    .side-nav .nav-links .regester a:nth-child(1):hover{
+        background-color: #1F63BF;
+        color: #FFFFFF;
+    
+    }
+    .side-nav .nav-links .regester a:nth-child(2):hover{
+        background:none;
+        color: #606060;
+    }
+    
+    /* end of side nav */
+    html{
+        scroll-behavior: smooth;
+    }
+    header{
+        position: relative;
+        height:auto;
+        width:100% ;
+    }
+    header div nav{
+        width:100% ;
+        height:15vh ;
+    }
+    header nav .links{
+        display:flex;
+    }
+    nav .links{
+        width:100% ;
+        display: flex;
+        align-items: center;
+        gap:40px ;
+
+    }
+    header div nav{
+        width:100% ;
+        height: 158px;
+        display: flex;
+        align-items: center;
+    }
+    header nav .logo{
+        padding-top:30px ;
+        margin-left:-1px ;
+    }
+    header nav .logo img{
+        width:160px ;
+    }
+    header nav .links ul{
+        list-style: none;
+        display: flex;
+        gap:30px ;
+    }
+    header nav .links ul li{
+        width:110px ;
+        height:145px ;
+        text-align: center;
+        padding-top:10px;
+        border-bottom-left-radius:15px ;
+        border-bottom-right-radius:15px ;
+        
+    }
+    header nav .links ul .active {
+        color: #FFFFFF;
+        background-color:#1F63BF;
+    }
+    header nav .links ul li:hover{
+        color: #FFFFFF;
+        background-color:#1F63BF;
+    }
+    header nav ul li a{
+        display: block;
+        text-align: center;
+        width:110px ;
+        height:145px ;
+        font-size:20px;
+        text-decoration: none;
+        color:#606060;
+        line-height:30px ;
+        font-weight:400 ;
+        margin-top:60px ;
+    }
+    header nav ul .active a{
+        color: #FFFFFF;
+    }
+    header nav ul li:hover a{
+        color: #FFFFFF;
+    }
+    header nav .regester{
+        padding-top:30px ;
+        gap:10px ;
+    }
+    header nav .links .regester a{
+        display: flex;
+        display: inline-block;
+        text-decoration: none;
+        color:#606060 ;
+        width:130px ;
+        height:40px ;
+        text-align: center;
+        line-height:40px ;
+        font-size:16px ;
+        border-radius:16px ;
+        font-weight: 400;
+    }
+    header nav .links .regester a:nth-child(1){
+        border: solid 1px #606060;
+    
+    }
+    header nav .links .regester a:nth-child(2){
+        background-color: #1F63BF;
+        color:#FFFFFF;
+    }
+    header nav .links .regester a:nth-child(1):hover{
+        background-color: #1F63BF;
+        color: #FFFFFF;
+    
+    }
+    header nav .regester a:nth-child(2):hover{
+        background:#FFFFFF;
+        color:#1F63BF;
+    }
+    nav .bars{
+        margin-top:30px ;
+        display: none;
+    
+    }
+    nav .bars a i{
+        font-size:40px ;
+        color: #1F63BF;
+    }
+    /* end of nav */
+    
+    
+    /* end of header */
+    
+    .alltracks{
+        
+        width:100% ;
+        height:auto ;
+        position:relative;
+        margin: auto;
+        margin-top:35px ;
+    }
+    .alltracks>img{
+        display: none;
+    }
+    .alltracks .tracks-title{
+        width:567px ;
+        margin: auto;
+        text-align: center;
+    }
+    .alltracks .tracks-title h2{
+        font-size:50px;
+        font-weight: 600;
+    }
+    .tracks-title h2 span{
+        color: #1F63BF;
+    }
+    .tracks-title p{
+        color: #606060;
+        font-size: 24px;
+        margin-top:10px ;
+    }
+    
+    .alltracks .tracks{
+        width:90% ;
+        height: auto;
+        margin: auto;
+        margin-top:40px ;
+        display: grid;
+        grid-template-columns:repeat(2,50%) ;
+        gap:30px ;
+    }
+    .alltracks .tracks .track{
+        width:90% ;
+        height:auto ;
+        background-color:#E0E5ECB0;
+        padding:15px ;
+        display:flex;
+        margin-left:3%;
+        border-radius:20px ;
+        padding-bottom:30px ;
+    
+    }
+    .track .track-img{
+        width:130px ;
+        
+    }
+    .track .track-img div {
+        width:80px ;
+        height:80px;
+        border-radius:50px ;
+        line-height:100px;
+        text-align: center;
+        background-color: #FFFFFF;
+        margin: auto;
+    }
+    .track .track-img div img{
+        width:40px ;
+        height:40px ;
+    }
+    .track-cont{
+        display: grid;
+        grid-template-rows:10% 40% 35%;
+        gap:20px ;
+    }
+    .track-cont>a{
+        text-decoration: none;
+        color: #1F63BF;
+        font-size:24px ;
+        font-weight:600 ;
+        line-height:30px ;   
+    }
+    .track-cont p{
+        color:#606060;
+        font-size:16px ;
+        font-weight: 400;
+        line-height: 20px;
+        word-spacing:2px ;
+        width:430px ;
+        height:60px ;
+        margin-top:30px ;
+    }
+    .track .track-instractor{
+        border-left:solid 4px #1F63BF ;
+        display: flex;
+        margin-top:30px ;
+        padding-left:10px ;
+        justify-content: space-between;
+        align-items: center;
+        padding-right:20px ;
+    }
+    .track-instractor h3{
+        color: #454545;
+    }
+    .track-instractor h4{
+        color: #1F63BF;
+        margin-top:10px ;
+    }
+    .track-instractor h4 a{
+        text-decoration: none;
+        color: #1F63BF;
+        margin-left:5px ;
+    }
+    .track .track-instractor .react button {
+        color: #1F63BF;
+        font-size:20px ;
+        border: none;
+        cursor: pointer;
+        transition:.6s;
+    }
+    .track-instractor .react button.active{
+        color: red;
+        transform:scale(1.2) ;
+    }
+    /* end of tracks */
+    footer{
+        width:100% ;
+        height:450px ;
+        border-top:solid 1px #00000014  ;
+        padding-top:35px ;
+        margin-top:35px ;
+    }
+    footer .foot-divs{
+        width:100% ;
+        margin: auto;
+        display: grid;
+        grid-template-columns:25% 40% 25% ;
+        justify-content: space-between;
+        gap:20px ;
+    }
+    .foot-divs .foot-div{
+        text-align:right;
+        padding-right:0px ;
+    }
+    .foot-divs .foot-div h2{
+        color: #343434;
+        font-size:36px;
+        font-weight: 500;
+        line-height: 45px;
+    }
+    .foot-divs .foot-div div h4{
+        font-size: 22px;
+        line-height: 40px;
+        font-weight:400 ;
+        margin-top:20px ;
+    }
+    .foot-divs .foot-div div a{
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight:300 ;
+        color:#606060 ;
+    }
+    .foot-divs .foot-div2{
+        margin-top: -30px;
+        text-align: center;
+    }
+    .foot-divs .foot-div2 img{
+        width: 213px;
+        height: 202px;
+    }
+    .foot-divs .foot-div2 h3{
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 400;
+    }
+    .foot-divs .foot-div2 ul{
+        list-style: none;
+        margin-top:30px ;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .foot-divs .foot-div2 ul li a{
+        color: #1F63BF;
+        font-size:30px ;  
+    }
+    .foot-divs .foot-div2 ul li a:hover{
+        color:#343434;
+    }
+    .foot-divs .foot-div3{
+        text-align: left;
+        padding-left:0px ;
     }
     .foot-divs .foot-div3 h2{
         font-size:36px ;

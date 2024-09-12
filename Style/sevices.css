@@ -238,6 +238,7 @@ nav .bars a i {
   height: 700px;
   border: 7px 0px 0px 0px;
   opacity: 0px;
+  margin-left:0 ;
   margin-top: 35px;
   border: solid 7px #1f63bf;
 }
@@ -412,7 +413,8 @@ footer{
     width:100% ;
     height:450px ;
     border-top:solid 1px #00000014  ;
-    padding-top:30px ;
+    padding-top:30px;
+    margin-top:35px ;
 }
 footer .foot-divs{
     width:90% ;
@@ -506,7 +508,7 @@ footer p{
     text-align: center;
 }
 /* end of footer */
-@media only screen and (min-width: 1440px) and (max-width: 2560px) {
+@media only screen and (min-width: 1366px) and (max-width: 1440px) {
   .side-nav {
     height: 100%;
     width: 0;
@@ -596,7 +598,7 @@ footer p{
   nav .links {
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 30px;
   }
   header div nav {
     display: none;
@@ -616,7 +618,7 @@ footer p{
   header nav .links ul {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 20px;
   }
   header nav .links ul li {
     width: 125px;
@@ -635,7 +637,6 @@ footer p{
     background-color: #1f63bf;
   }
   header nav ul li a {
-    display: block;
     width: 125px;
     height: 145px;
     font-size: 20px;
@@ -730,7 +731,12 @@ footer p{
     text-align: left;
     color: #ffffff;
   }
+  .media div{
+    width:90% ;
+    justify-content: left;
+  }
   .media iframe {
+    display: block;
     width: 90%;
     height: 700px;
     border: 7px 0px 0px 0px;
@@ -1001,7 +1007,7 @@ footer p{
     text-align: center;
   }
 }
-@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
   .side-nav {
     height: 100%;
     width: 0;
@@ -1092,7 +1098,8 @@ footer p{
     width:100% ;
     display: flex;
     align-items: center;
-    gap:40px ;
+    gap:20px ;
+
 
 }
 header div nav{
@@ -1245,13 +1252,16 @@ header nav ul li a{
     text-align: left;
     color: #ffffff;
   }
+  .media div{
+    width:90% ;
+  }
   .media iframe {
-    width: 80%;
+    width: 90%;
     height: 700px;
     border: 7px 0px 0px 0px;
     opacity: 0px;
     margin-top: 35px;
-    margin-left: 10%;
+    margin-left:0%;
     border: solid 7px #1f63bf;
   }
   /* end of media */
@@ -1758,13 +1768,16 @@ footer p{
     text-align: left;
     color: #ffffff;
   }
+  .media div{
+    width:90% ;
+  }
   .media iframe {
-    width: 80%;
+    width: 90%;
     height: 600px;
     border: 7px 0px 0px 0px;
     opacity: 0px;
     margin-top: 35px;
-    margin-left: 10%;
+    margin-left: 0%;
     border: solid 7px #1f63bf;
   }
   /* end of media */
@@ -2284,13 +2297,16 @@ footer p{
     text-align: left;
     color: #ffffff;
   }
+  .media div{
+    width:90% ;
+  }
   .media iframe {
-    width: 80%;
+    width: 90%;
     height: 600px;
     border: 7px 0px 0px 0px;
     opacity: 0px;
     margin-top: 35px;
-    margin-left: 10%;
+    margin-left:0%;
     border: solid 7px #1f63bf;
   }
   /* end of media */
@@ -2697,7 +2713,7 @@ footer p{
     padding-bottom: 30px;
   }
   .media h2 {
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: 30px;
     display: inline-block;
     font-family: Lexend;
@@ -2710,7 +2726,7 @@ footer p{
   }
   .media p {
     width: 500px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: 20px;
     font-family: Lexend;
     font-size: 16px;
@@ -2719,19 +2735,16 @@ footer p{
     letter-spacing: 0.06em;
     color: #ffffff;
   }
-  .media div {
-    width: 90%;
-    text-align: center;
-    margin: auto;
+  .media div{
+    width:90% ;
   }
   .media iframe {
-    width: 80%;
+    width: 90%;
     height: 300px;
     margin: auto;
-    margin-left: auto;
+    margin-left: 0;
     margin-top: 20px;
-    border: solid 3px #ffffff;
-    border-radius: 10px;
+    border: solid 4px #1F63BF;
   }
   /* end of media */
   .services {
@@ -3173,16 +3186,15 @@ footer p{
   }
   .media div {
     width: 90%;
-    text-align: center;
-    margin: auto;
+
   }
   .media iframe {
-    width: 100%;
+    width: 97%;
     height: 200px;
     margin: auto;
-    margin-left: auto;
+    margin-left: 0;
     margin-top: 20px;
-    border: solid 3px #ffffff;
+    border: solid 4px #1F63BF;
     border-radius: 10px;
   }
   /* end of media */

@@ -421,9 +421,9 @@ body .med-right {
 /* end of accordion */
 
 .reuirements{
-    width:90% ;
-    margin: auto;
-    margin-top:40px ;
+    width:80% ;
+    margin-left:6.5% ;
+    margin-top:40px;
 }
 .reuirements h2{
     font-size: 30px;
@@ -431,7 +431,6 @@ body .med-right {
     line-height: 50px;
     letter-spacing: 0.03em;
     text-align: left;
-
 }
 .reuirements ul{
     margin-left:40px ;
@@ -447,8 +446,8 @@ body .med-right {
 }
 /* end of requirments */
 .description{
-    width:90% ;
-    margin: auto;
+    width:80% ;
+    margin-left:6.5% ;
     margin-top:40px ;
 }
 .description h2{
@@ -529,7 +528,7 @@ body .med-right {
     color:#1f63bf ;
     border: solid;
     width: 302px;
-    height: 130px;
+    height: 120px;
     background-color: #ffffff;
     box-shadow: -2px -2px 8px 0px #1F63BF;
     box-shadow: 2px 2px 8px 0px #1F63BF;
@@ -537,7 +536,7 @@ body .med-right {
     text-align: center;
     font-size: 32px;
     font-weight: 500; 
-    line-height:125px;
+    line-height:120px;
     text-align: center;
     transition: transform .5s ease-out;
 }
@@ -616,8 +615,8 @@ body .med-right {
 footer{
     width:100% ;
     height:450px ;
-    border-top:solid 1px #00000014  ;
     padding-top:30px ;
+    margin-top:30px ;
 }
 footer .foot-divs{
     width:90% ;
@@ -1108,7 +1107,6 @@ footer p{
     
     .reuirements{
         width:90% ;
-        margin: auto;
         margin-top:40px ;
     }
     .reuirements h2{
@@ -1134,7 +1132,6 @@ footer p{
     /* end of requirments */
     .description{
         width:90% ;
-        margin: auto;
         margin-top:40px ;
     }
     .description h2{
@@ -1178,7 +1175,7 @@ footer p{
     .others{
         margin-top:60px ;
         width:100%;
-        height: 671px;
+        height: 660px;
         opacity: 0px;
         background-color: #1f63bf;
         padding-top:5px ;
@@ -1200,13 +1197,13 @@ footer p{
         width:90% ;
         margin: auto;
         margin-top:40px ;
-        margin-left:2% ;
+        margin-left:4% ;
     }
     .others .tracks ul{
         list-style: none;
         display: grid;
-        grid-template-columns:repeat(4,25%) ;
-        gap:30px ;
+        grid-template-columns:repeat(4,23%) ;
+        gap:40px ;
     }
     
     .others .tracks ul li a{
@@ -1215,7 +1212,7 @@ footer p{
         color:#1f63bf ;
         border: solid;
         width: 302px;
-        height: 130px;
+        height: 120px;
         background-color: #ffffff;
         box-shadow: -2px -2px 8px 0px #1F63BF;
         box-shadow: 2px 2px 8px 0px #1F63BF;
@@ -1223,7 +1220,7 @@ footer p{
         text-align: center;
         font-size: 32px;
         font-weight: 500; 
-        line-height:125px;
+        line-height:120px;
         text-align: center;
         transition: transform .5s ease-out;
     }
@@ -1302,7 +1299,6 @@ footer p{
     footer{
         width:100% ;
         height:450px ;
-        border-top:solid 1px #00000014  ;
         padding-top:30px ;
     }
     footer .foot-divs{
@@ -1782,8 +1778,7 @@ footer p{
     /* end of accordion */
     
     .reuirements{
-        width:90% ;
-        margin: auto;
+        width:80% ;
         margin-top:40px ;
     }
     .reuirements h2{
@@ -1809,7 +1804,6 @@ footer p{
     /* end of requirments */
     .description{
         width:90% ;
-        margin: auto;
         margin-top:40px ;
     }
     .description h2{
@@ -1853,7 +1847,7 @@ footer p{
     .others{
         margin-top:60px ;
         width:100%;
-        height: 671px;
+        height: 660px;
         gap: 0px;
         opacity: 0px;
         background-color: #1f63bf;
@@ -1879,10 +1873,8 @@ footer p{
     .others .tracks ul{
         list-style: none;
         display: grid;
-        grid-template-columns:repeat(4,25%) ;
-        gap:20px ;
-        justify-content: center;
-        margin: auto;
+        grid-template-columns:repeat(4,23%) ;
+        gap:40px ;
     }
     
     .others .tracks ul li a{
@@ -1891,7 +1883,7 @@ footer p{
         color:#1f63bf ;
         border: solid;
         width:100%;
-        height: 144px;
+        height: 120px;
         background-color: #ffffff;
         box-shadow: -2px -2px 8px 0px #1F63BF;
         box-shadow: 2px 2px 8px 0px #1F63BF;
@@ -1977,7 +1969,6 @@ footer p{
     footer{
         width:100% ;
         height:450px ;
-        border-top:solid 1px #00000014  ;
         padding-top:35px ;
         margin-top:35px ;
     }
@@ -2163,15 +2154,15 @@ footer p{
     nav .links{
         display: flex;
         align-items: center;
-        gap:60px ;
+        gap:20px ;
     }
     header div nav{
-        display: none;
+        display: flex;
         width:100% ;
         height: 158px;
-        display: flex;
         align-items: center;
         justify-content:space-around;
+        gap:30px ;
     }
     header nav .logo{
         padding-top:30px ;
@@ -2183,10 +2174,10 @@ footer p{
     header nav .links ul{
         list-style: none;
         display: flex;
-        gap:30px ;
+        gap:10px ;
     }
     header nav .links ul li{
-        width:125px ;
+        width:115px ;
         height:145px ;
         text-align: center;
         padding-top:10px;
@@ -2203,8 +2194,7 @@ footer p{
         background-color:#1F63BF;
     }
     header nav ul li a{
-        display: block;
-        width:125px ;
+        width:115px ;
         height:145px ;
         font-size: 20px;
         text-decoration: none;
@@ -2222,6 +2212,7 @@ footer p{
     header nav .regester{
         padding-top:30px ;
         gap:10px ;
+        display: flex;
     }
     header nav .links .regester a{
         display: flex;
@@ -2270,7 +2261,7 @@ footer p{
         width: 90%;
         height:auto;
         margin: auto;
-        margin-top: 20px; 
+        margin-top: 35px; 
     }
     .media .med-cont{
       display: grid;
@@ -2479,8 +2470,7 @@ footer p{
     /* end of accordion */
     
     .reuirements{
-        width:90% ;
-        margin: auto;
+        width:80% ;
         margin-top:40px ;
     }
     .reuirements h2{
@@ -2506,7 +2496,7 @@ footer p{
     /* end of requirments */
     .description{
         width:90% ;
-        margin: auto;
+        
         margin-top:40px ;
     }
     .description h2{
@@ -2572,22 +2562,22 @@ footer p{
         width:90% ;
         margin: auto;
         margin-top:40px ;
-        margin-left:5% ;
+        margin-left:2% ;
     }
     .others .tracks ul{
         list-style: none;
-        display: flex;
-        gap:50px ;
-    
+        display:grid;
+        grid-template-columns: repeat(4,25%);
+        gap:2% ;
     }
-    
+
     .others .tracks ul li a{
         display: inline-block;
         text-decoration: none;
         color:#1f63bf ;
         border: solid;
-        width: 302px;
-        height: 144px;
+        width: 100%;
+        height: 120px;
         background-color: #ffffff;
         box-shadow: -2px -2px 8px 0px #1F63BF;
         box-shadow: 2px 2px 8px 0px #1F63BF;
@@ -2595,7 +2585,7 @@ footer p{
         text-align: center;
         font-size: 32px;
         font-weight: 500; 
-        line-height:125px;
+        line-height:120px;
         text-align: center;
         transition: transform .5s ease-out;
     }
@@ -2674,8 +2664,8 @@ footer p{
     footer{
         width:100% ;
         height:450px ;
-        border-top:solid 1px #00000014  ;
         padding-top:30px ;
+        margin-top:35px ;
     }
     footer .foot-divs{
         width:90% ;
@@ -3219,6 +3209,7 @@ footer p{
         list-style: none;
         display:grid;
         grid-template-columns: repeat(2,50%);
+        gap:40px ;
     }
     .others .tracks ul li{
         width:90%;
@@ -3334,7 +3325,6 @@ footer p{
         margin-top:30px ;
         width:100% ;
         height:550px ;
-        border-top:solid 1px #00000014  ;
         padding-top:30px ;
         padding-bottom:20px ;
     }
@@ -3863,7 +3853,7 @@ footer p{
         height:auto;
         background-color: #1f63bf;
         padding-top:5px ;
-        padding-bottom:35px ;
+        padding-bottom:40px ;
         margin-top:35px ;
     }
     .others h2{
@@ -4001,11 +3991,11 @@ footer p{
         color: #343434;
     }
       /* end of others */
-      footer{
+    footer{
         margin-top:30px ;
         width:100% ;
         height:550px ;
-        border-top:solid 1px #00000014  ;
+        margin-top:30px ;
         padding-top:30px ;
         padding-bottom:20px ;
     }
@@ -4686,7 +4676,6 @@ footer p{
         margin-top:30px ;
         width:100% ;
         height:550px ;
-        border-top:solid 1px #00000014  ;
         padding-top:30px ;
         padding-bottom:20px ;
     }

@@ -498,13 +498,14 @@ footer p{
         width: 100%;
         display: flex;
         align-items: center;
-        gap: 40px;
+        gap: 20px;
       }
       header div nav {
         width: 100%;
         height: 158px;
         display: flex;
         align-items: center;
+        gap:5% ;
       }
       header nav .logo {
         padding-top: 30px;
@@ -516,10 +517,10 @@ footer p{
       header nav .links ul {
         list-style: none;
         display: flex;
-        gap: 30px;
+        gap: 20px;
       }
       header nav .links ul li {
-        width: 125px;
+        width: 115px;
         height: 145px;
         text-align: center;
         padding-top: 10px;
@@ -527,8 +528,8 @@ footer p{
         border-bottom-right-radius: 15px;
       }
       header nav .links ul li a {
-        width: 125px;
-        font-size:22px ;
+        width: 115px;
+        font-size:20px ;
       }
       header nav .links ul .active {
         color: #ffffff;
@@ -887,83 +888,73 @@ footer p{
         position: relative;
         width:100% ;
     }
-    nav .links{
-        width:100% ;
+    nav .links {
+        width: 100%;
         display: flex;
         align-items: center;
-        gap:40px ;
-
-    }
-    header div nav{
-        width:100% ;
+        gap: 40px;
+      }
+      header div nav {
+        width: 100%;
         height: 158px;
         display: flex;
         align-items: center;
-    }
-    header nav .logo{
-        padding-top:30px ;
-        margin-left:-1px ;
-    }
-    header nav .logo img{
-        width:160px ;
-    }
-    header nav .links ul{
+      }
+      header nav .logo {
+        padding-top: 30px;
+        margin-left: -1px;
+      }
+      header nav .logo img {
+        width: 160px;
+      }
+      header nav .links ul {
         list-style: none;
         display: flex;
-        gap:30px ;
-    }
-    header nav .links ul li{
-        width:110px ;
-        height:145px ;
+        gap: 30px;
+      }
+      header nav .links ul li {
+        width: 115px;
+        height: 145px;
         text-align: center;
-        padding-top:10px;
-        border-bottom-left-radius:15px ;
-        border-bottom-right-radius:15px ;
-        
-    }
-    header nav .links ul .active {
-        color: #FFFFFF;
-        background-color:#1F63BF;
-    }
-    header nav .links ul li:hover{
-        color: #FFFFFF;
-        background-color:#1F63BF;
-    }
-    header nav ul li a{
-        display: block;
-        text-align: center;
-        width:110px ;
-        height:145px ;
-        font-size:20px;
-        text-decoration: none;
-        color:#606060;
-        line-height:30px ;
-        font-weight:400 ;
-        margin-top:60px ;
-    }
-    header nav ul .active a{
-        color: #FFFFFF;
-    }
-    header nav ul li:hover a{
-        color: #FFFFFF;
-    }
-    header nav .regester{
-        padding-top:30px ;
-        gap:10px ;
-    }
-    header nav .links .regester a{
+        padding-top: 10px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+      }
+      header nav .links ul li a {
+        width: 115px;
+        font-size:20px ;
+      }
+      header nav .links ul .active {
+        color: #ffffff;
+        background-color: #1f63bf;
+      }
+      header nav .links ul li:hover {
+        color: #ffffff;
+        background-color: #1f63bf;
+      }
+      header nav ul .active a {
+        color: #ffffff;
+      }
+      header nav ul li:hover a {
+        color: #ffffff;
+      }
+      header nav .regester {
+        padding-top: 30px;
+        gap: 10px;
+      }
+      header nav .links .regester a {
         display: flex;
         display: inline-block;
         text-decoration: none;
-        color:#606060 ;
-        width:130px ;
-        height:40px ;
+        color: #606060;
+        width: 150px;
+        height: 40px;
         text-align: center;
-        line-height:40px ;
-        font-size:16px ;
-        border-radius:16px ;
+        line-height: 40px;
+        font-size: 24px;
+        border-radius: 16px;
         font-weight: 400;
-    }
+      }
     header nav .links .regester a:nth-child(1){
         border: solid 1px #606060;
     
